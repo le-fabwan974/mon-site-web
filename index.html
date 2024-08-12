@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour Toi, Mon Amour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pour Toi, Mon Amour ❤️</h1>
+        <p>Clique sur les boutons ci-dessous pour découvrir des surprises !</p>
+
+        <div class="surprise">
+            <button onclick="revealMessage()">Clique ici pour un message spécial</button>
+            <p id="message" style="display:none;">Je t'aime plus que tout au monde 💖</p>
+        </div>
+
+        <div class="surprise">
+            <button onclick="revealImage()">Clique ici pour voir une image</button>
+            <img id="image" src="surprise.jpg" alt="Surprise Image" style="display:none;">
+        </div>
+
+        <div class="surprise">
+            <button onclick="revealText()">Clique ici pour découvrir une autre surprise</button>
+            <p id="text" style="display:none;">Tu es la personne la plus incroyable que j'ai jamais rencontrée 🌟</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
